@@ -34,14 +34,3 @@ function wordsInASentence(total, sentence){
 
   console.log(wordCountMap)
 // var wordCountMap = { '1': 2, '4': 1, '6': 3, '7': 2, '9': 1, '11': 1, '14': 1, '15': 3 }
-
-// const wordCountMap = monologueLines.reduce((map, sentence) => {
-//
-//   if (!map[sentence.split(' ').length]) {
-//     map[sentence.split(' ').length] = 0;
-//   }
-//
-//   map[sentence.split(' ').length]++;
-//
-//   return map;
-// }, {});
